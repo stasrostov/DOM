@@ -23,5 +23,4 @@ describe('Goblin', () => {
     expect(element.tagName).toBe('IMG');
   });
 
-  // Тесты на get и set свойства _element можно опустить, поскольку они проверяются в других тестах.
 });

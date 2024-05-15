@@ -20,14 +20,7 @@ export default class App {
     randomCell.append(this.goblin.element);
   }
 
-  // randomPosition() {
-  //   const newPosition = Math.floor(Math.random() * this.board.size);
-  //   if (newPosition !== this.position) {
-  //     this.position = newPosition;
-  //   } else {
-  //     this.randomPosition();
-  //   }
-  // }
+  
   randomPosition() {
     this.position = Math.floor(Math.random() * this.board.size);
   }
